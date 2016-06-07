@@ -14,6 +14,10 @@
 		0B5213711D06778800F46172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B52136F1D06778800F46172 /* LaunchScreen.storyboard */; };
 		0B52137C1D06778800F46172 /* GachaTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B52137B1D06778800F46172 /* GachaTechTests.swift */; };
 		0B5213871D06778800F46172 /* GachaTechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5213861D06778800F46172 /* GachaTechUITests.swift */; };
+		0B5213971D06784C00F46172 /* background in Resources */ = {isa = PBXBuildFile; fileRef = 0B5213941D06784C00F46172 /* background */; };
+		0B5213981D06784C00F46172 /* Defaults in Resources */ = {isa = PBXBuildFile; fileRef = 0B5213951D06784C00F46172 /* Defaults */; };
+		0B5213991D06784C00F46172 /* monster in Resources */ = {isa = PBXBuildFile; fileRef = 0B5213961D06784C00F46172 /* monster */; };
+		0BF553301D069C25008BA013 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5532F1D069C25008BA013 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		0B5213821D06778800F46172 /* GachaTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GachaTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B5213861D06778800F46172 /* GachaTechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GachaTechUITests.swift; sourceTree = "<group>"; };
 		0B5213881D06778800F46172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B5213941D06784C00F46172 /* background */ = {isa = PBXFileReference; lastKnownFileType = folder; name = background; path = "../../../Documents/Life is Tech!/iPhone2/Gacha素材/GachaResources/background"; sourceTree = "<group>"; };
+		0B5213951D06784C00F46172 /* Defaults */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Defaults; path = "../../Documents/Life is Tech!/iPhone2/Gacha素材/GachaResources/Defaults"; sourceTree = "<group>"; };
+		0B5213961D06784C00F46172 /* monster */ = {isa = PBXFileReference; lastKnownFileType = folder; name = monster; path = "../../../Documents/Life is Tech!/iPhone2/Gacha素材/GachaResources/monster"; sourceTree = "<group>"; };
+		0BF5532F1D069C25008BA013 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		0B52135A1D06778800F46172 = {
 			isa = PBXGroup;
 			children = (
+				0B5213951D06784C00F46172 /* Defaults */,
 				0B5213651D06778800F46172 /* GachaTech */,
 				0B52137A1D06778800F46172 /* GachaTechTests */,
 				0B5213851D06778800F46172 /* GachaTechUITests */,
@@ -97,6 +106,9 @@
 		0B5213651D06778800F46172 /* GachaTech */ = {
 			isa = PBXGroup;
 			children = (
+				0B5213941D06784C00F46172 /* background */,
+				0B5213961D06784C00F46172 /* monster */,
+				0BF5532F1D069C25008BA013 /* ResultViewController.swift */,
 				0B5213661D06778800F46172 /* AppDelegate.swift */,
 				0B5213681D06778800F46172 /* ViewController.swift */,
 				0B52136A1D06778800F46172 /* Main.storyboard */,
@@ -231,7 +243,10 @@
 			files = (
 				0B5213711D06778800F46172 /* LaunchScreen.storyboard in Resources */,
 				0B52136E1D06778800F46172 /* Assets.xcassets in Resources */,
+				0B5213971D06784C00F46172 /* background in Resources */,
+				0B5213991D06784C00F46172 /* monster in Resources */,
 				0B52136C1D06778800F46172 /* Main.storyboard in Resources */,
+				0B5213981D06784C00F46172 /* Defaults in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +273,7 @@
 			files = (
 				0B5213691D06778800F46172 /* ViewController.swift in Sources */,
 				0B5213671D06778800F46172 /* AppDelegate.swift in Sources */,
+				0BF553301D069C25008BA013 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +498,7 @@
 				0B52138D1D06778800F46172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B52138E1D06778800F46172 /* Build configuration list for PBXNativeTarget "GachaTechTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +507,7 @@
 				0B5213901D06778800F46172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B5213911D06778800F46172 /* Build configuration list for PBXNativeTarget "GachaTechUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +516,7 @@
 				0B5213931D06778800F46172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
