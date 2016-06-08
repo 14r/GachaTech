@@ -17,9 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gacha@2x (1).png" translatesAutoresizingMaskIntoConstraints="NO" id="1Ob-z0-9Nw">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMI-RZ-I4q">
                                 <rect key="frame" x="181" y="411" width="45" height="30"/>
                                 <state key="normal" title="まわす"/>
@@ -27,6 +24,9 @@
                                     <action selector="gacha" destination="BYZ-38-t0r" eventType="touchUpInside" id="02q-IL-n7q"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gacha.png" translatesAutoresizingMaskIntoConstraints="NO" id="1Ob-z0-9Nw">
+                                <rect key="frame" x="26" y="42" width="323" height="596"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -37,6 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="244.5" y="236.5"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="T0V-hR-wtC">
@@ -50,6 +51,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gaW-SH-KDQ">
+                                <rect key="frame" x="98" y="90" width="240" height="128"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zmf-yq-nas">
                                 <rect key="frame" x="195" y="291" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
@@ -57,9 +61,6 @@
                                     <action selector="modoru" destination="d2M-OB-RSG" eventType="touchUpInside" id="Zcb-DE-O1W"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gaW-SH-KDQ">
-                                <rect key="frame" x="98" y="90" width="240" height="128"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tqf-Kt-2Bn">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
@@ -70,10 +71,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c8X-ep-3Wa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="646.5" y="312.5"/>
+            <point key="canvasLocation" x="656.5" y="236.5"/>
         </scene>
     </scenes>
     <resources>
-        <image name="gacha@2x (1).png" width="450" height="678"/>
+        <image name="gacha.png" width="225" height="339"/>
     </resources>
 </document>
